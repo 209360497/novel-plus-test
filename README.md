@@ -13,8 +13,21 @@ novel-plus-test/
 │   ├── 功能测试用例.xlsx
 │   └── 接口测试用例.xlsx（或Postman Collection）
 ├── 05_脚本/
-│   ├── api_automation/     # pytest+requests脚本
-│   └── ui_automation/      # Selenium脚本（可选）
+│   ├── postman/
+│   │   ├── novel_plus_collection.json
+│   │   └── environment.json
+│   ├── jmeter/
+│   |   ├── novel_load_test.jmx
+│   |   └── 性能测试报告.md
+│   ├── selenium_ui/
+│   │   ├── pages/               # Page Object 页面类
+│   │   ├── tests/               # pytest 测试用例
+│   │   ├── conftest.py
+│   │   ├── requirements.txt
+│   │   └── allure-results/      # 测试报告
+│   └── api_pytest/              # 如果你也想用pytest做接口自动化
+│       ├── test_api.py
+│       └── utils/
 ├── 06_测试数据/
 │   └── 预置数据.sql
 ├── 07_缺陷报告/
