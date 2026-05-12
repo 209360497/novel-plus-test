@@ -33,6 +33,7 @@
 - #### 系统及模块
 
 ​		前台门户系统、作家后台管理系统、平台后台管理系统
+<img width="1067" height="1546" alt="小说精品屋业务模块" src="https://github.com/user-attachments/assets/51534d66-e5e0-4fcd-aa99-d589ae83b5ac" />
 
 
 
